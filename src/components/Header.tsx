@@ -6,7 +6,7 @@ export interface HeaderProps {
   // Empty interface, can be extended later
 }
 
-const Header = forwardRef((props: HeaderProps, ref: ForwardedRef<HTMLElement>) => {
+const Header = forwardRef((_props: HeaderProps, ref: ForwardedRef<HTMLElement>) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   return (

@@ -2,9 +2,7 @@ import {
   Monitor, 
   Layers, 
   Sparkles, 
-  Code,
-  Terminal,
-  Cpu
+  Code
 } from 'lucide-react'
 
 export interface Project {
